@@ -10,3 +10,7 @@ __pycache__/
 env
 
 .pre-commit-config.yaml
+
+*.db
+*.sqlite
+*.sqlite3
