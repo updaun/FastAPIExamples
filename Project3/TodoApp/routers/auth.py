@@ -1,10 +1,10 @@
 from datetime import datetime, timedelta
 from fastapi import APIRouter, Depends, HTTPException, status
 from pydantic import BaseModel
-from models import Users
+from ..models import Users
 from passlib.context import CryptContext
 
-from database import SessionLocal
+from ..database import SessionLocal
 from typing import Annotated
 from sqlalchemy.orm import Session
 
