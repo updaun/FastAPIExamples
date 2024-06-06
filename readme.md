@@ -29,3 +29,9 @@ alembic upgrade c9fe87b0ac17
 ```
 alembic downgrade -1
 ```
+
+### pytest
+
+```
+pytest --disable-warnings
+```
